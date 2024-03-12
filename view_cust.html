@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="image/im1.jpg"
+    />
+    <title>Customers | SP Bank</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="view_cust.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-c navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><h1><img src="image/im1.jpg"> SP Bank</a></h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+              <a class="nav-link" href="moneytransfer.html"> Money Transfer </a>                     
+              <a class="nav-link" href="https://www.linkedin.com/in/prajjwal-singh-563ba41a0/"> Contact us </a>
+              <a class="nav-link" href="https://www.thesparksfoundationsingapore.org/"> About Us </a>   
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+    <!-- navbar ends here  -->
+    <!-- table  -->
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table table-striped table-light" style="text-align: left">
+          <thead>
+            <tr class="table table-bordered">
+              <th scope="col">Sl. No.</th>
+              <th scope="col">Name</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Account No.</th>
+              <th scope="col">Bank Balance(in ₹)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">1</td>
+              <td>Siva</td>
+              <td>sivasrinivasan1218@gmail.com</td>
+              <td>1234567988</td>
+              <td>
+                <p id="SivaBankBalance">150000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">2</td>
+              <td>leo</td>
+              <td>leo@email.com</td>
+              <td>9874561230</td>
+              <td>
+                <p id="leoBankBalance">250000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">3</td>
+              <td>Karthik</td>
+              <td>Karthik@email.com</td>
+              <td>9856214732</td>
+              <td>
+                <p id="karthikBankBalance">100000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">4</td>
+              <td>prabha</td>
+              <td>prabha@email.com</td>
+              <td>63585856213</td>
+              <td>
+                <p id="prabhaBankBalance">55000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">5</td>
+              <td>Manish</td>
+              <td>Manish@email.com</td>
+              <td>6897543129</td>
+              <td>
+                <p id="ManishBankBalance">90000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">6</td>
+              <td>Deva</td>
+              <td>Deva@email.com</td>
+              <td>8976525733</td>
+              <td>
+                <p id="devaBankBalance">28563.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Kalpana</td>
+              <td>Kalpana@email.com</td>
+              <td>7888987654</td>
+              <td>
+                <p id="KalpanaBankBalance">56989.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">8</td>
+              <td>Kamal</td>
+              <td>kamal@email.com</td>
+              <td>7867768432</td>
+              <td>
+                <p id="kamalBankBalance">76650.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">9</td>
+              <td>Ganesh</td>
+              <td>ganesh@email.com</td>
+              <td>9523666481</td>
+              <td>
+                <p id="ganeshBankBalance">1000000.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">10</td>
+              <td>Vishal</td>
+              <td>Vishal@email.com</td>
+              <td>8210345896</td>
+              <td>
+                <p id="vishalBankBalance">130000.00</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    <script src="App.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+</body>
+</html>
